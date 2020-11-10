@@ -1,0 +1,73 @@
+
+.RecentTextParent2 {
+    /* height: 80px; */
+    width: 100%;
+    padding-top: 30px;
+    /* padding-left: 60px; */
+    padding-bottom: 65px;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .RecentText2 {
+    /* margin-left: 8%; */
+    align-self: center;
+    font-size: 28px;
+    
+  }
+  
+  
+  
+  
+  .VenturePackages {
+      display: flex;
+      /* height: 500px; */
+      width: 100%;
+      /* background-color: black; */
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    
+    
+    .PackagesParent {
+      height: 400px;
+      width: 270px;
+      display: flex;
+      flex-direction: column;
+      /* justify-content: center; */
+      align-items: center;
+      background-color: rgba(31 , 37 , 57) ;
+      border-radius: 20px;
+      margin: 15px;
+      /* flex-wrap: wrap; */
+    }
+    
+    .packageInnerBox {
+      /* padding: 10px; */
+      margin-top: 20px;
+      margin-bottom: 40px;
+      height: 65px;
+      width: 55%;
+      background-color: rgb(20 , 173 , 196);
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      border-radius: 15px;
+    }
+    .innerBoxText {
+      color: white;
+    }
+    .innerBoxText2 {
+      font-size: 12px;
+      color: white;
+    }
+    
+    .PackageText {
+      
+      color: white;
+      margin-top: 25px;
+    }

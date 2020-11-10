@@ -1,0 +1,17 @@
+
+
+.DeliveryConfirmBtn {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    color: grey;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 9px;
+    outline: none;
+    /* margin: 0 auto; */
+}
+
+.innerrowdetails {
+    display: flex;
+    flex-direction: row;
+}

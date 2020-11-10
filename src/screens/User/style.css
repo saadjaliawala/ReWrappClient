@@ -1,0 +1,110 @@
+.modalstyle {
+    display: flex;
+    height: 50vh;
+    width: 70%;
+    align-self: center;
+    background-color: white;
+    /* elevation: 2; */
+    position: absolute;
+    box-shadow: 0 0 13px #cdd6d8;
+    /* margin: 0 auto; */
+    /* left: 35%; */
+    left: 15%;
+    top: 10%;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+
+}
+
+.availablegamecontainer {
+    display: flex;
+    flex-direction: row;
+    /* padding: 20px; */
+    padding-top: 20px;
+    padding-left: 15px;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.swapimagestyle {
+    height: 80px;
+    width: 70px;
+}
+
+.usergamenamestyle {
+    padding-left: 15px;
+}
+
+.swapbuttonstyle {
+    margin-left: 15px;
+
+
+    /* margin-top: 10%; */
+    color: grey;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 13px;
+    outline: none;
+}
+
+
+.swapconfirmstyle {
+
+    color: grey;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 15px;
+    outline: none;
+
+}
+
+
+.selectoptionstyle {
+    border: 2px solid #e1e1e1;
+    height: 60px;
+    width: 50%;
+    color: grey;
+    margin: 5%;
+    padding: 2px;
+    outline: none;
+}
+
+.modalcrossstyle {
+    align-self: flex-end;
+    margin-right: 15px;
+    margin-top: 10px;
+
+}
+
+
+
+.userprofile {
+    display: flex;
+    flex-direction: row;
+    padding: 30px;
+    justify-content: space-between;
+}
+
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    /* display: none; */
+    /* position: absolute; */
+    background-color: blue;
+    /* min-width: 160px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); */
+    /* padding: 12px 16px; */
+    
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  

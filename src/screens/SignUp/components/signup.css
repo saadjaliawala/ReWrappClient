@@ -1,0 +1,99 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color:yellow; opacity:1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: yellow; opacity:1;
+}
+
+.SignUpDiv {
+    display : flex;
+    /* height: 100vh; */
+    width: 100%;
+    flex-direction: row;
+
+}
+
+
+
+
+
+.InputStyle {
+    height: 38px;
+    /* width: 5%; */
+    /* width: 200px; */
+    width: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* alignItems: 'center' */
+}
+.inputfield {
+    /* border: 1px solid yellow; */
+    /* height: 23px; */
+
+}
+
+.CityOptionStyle {
+    height: 38px;
+    /* height: 6%; */
+    width: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    /* padding-left: 20px; */
+    margin-top: 15px;
+    background-color: black;
+    color: yellow;
+
+}
+.react-date-picker {
+    margin-top: 15px;
+    color: black;
+    background-color: yellow;
+    height: 28px;
+    width: 50%;
+    /* border: 1px solid yellow; */
+}
+.AreaInputStyle {
+
+    /* height: 25px; */
+    width: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+.SubmitButton {
+    color: yellow;
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .SignUpDiv {
+        flex-direction: column;
+    }
+    .LeftDiv {
+       
+        width: 100%;
+        padding: 0;
+    }
+    .RightDiv {
+        width: 100%;
+    }
+   
+  }

@@ -1,0 +1,72 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color:yellow; opacity:1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: yellow; opacity:1;
+}
+
+
+
+.RightDiv {
+    height: 100%;
+    width: 70%;
+    background-color:  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.InputStyle {
+    height: 38px;
+    /* width: 200px; */
+    width: 50%;
+    border: 1px solid yellow;
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 200px; */
+    align-items: center;
+    /* alignItems: 'center' */
+}
+.inputfield {
+    /* border: 1px solid yellow; */
+    /* height: 23px; */
+
+}
+
+
+.SubmitButton {
+    color: yellow;
+    background-color: black;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    width: 100px;
+    margin-bottom: 20px;
+    outline: none;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .SignUpDiv {
+        flex-direction: column;
+    }
+    .LeftDiv {
+       
+        width: 100%;
+        padding: 0;
+    }
+    .RightDiv {
+        width: 100%;
+    }
+   
+  }

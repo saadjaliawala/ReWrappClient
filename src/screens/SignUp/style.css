@@ -1,0 +1,96 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color:yellow; opacity:1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: yellow; opacity:1;
+}
+
+.SignUpDiv {
+    display : flex;
+    height: 100vh;
+    /* height: 100%; */
+    /* height: auto; */
+    width: 100%;
+    flex-direction: row;
+
+}
+
+.LeftDiv {
+    /* height: 100vh; */
+    width: 30%;
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.RightDiv {
+    /* height: 100%; */
+    width: 70%;
+    background-color:  black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    /* padding-top: 10%; */
+    
+
+}
+.SignInButtonStyle {
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 30px;
+    /* margin: 40px; */
+    /* color: yellow; */
+    background-color: yellow;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    background-color: none;
+}
+.AdminButtonStyle {
+    font-weight: bold;
+    margin-top: 25px;
+    /* margin: 40px; */
+    /* color: yellow; */
+    background-color: yellow;
+    border: 1px solid black;
+    outline: none;
+    border-radius: 50px;
+    padding: 10px;
+    height: 45px;
+    width: 150px;
+    background-color: none;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+
+    .SignUpDiv {
+        flex-direction: column;
+        /* height: 100%; */
+    }
+    .LeftDiv {
+       
+        width: 100%;
+        padding: 0;
+    }
+    .RightDiv {
+        width: 100%;
+    }
+   
+  }

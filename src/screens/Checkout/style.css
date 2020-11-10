@@ -1,0 +1,188 @@
+.CheckoutMainDiv {
+    /* height: 100vh; */
+    width: 100%;
+}
+
+.billingformparent {
+    display: flex;
+    flex-direction: row;
+    /* height: 100%; */
+    width: 100%;
+    margin-bottom: 25px;
+    /* background-color: black; */
+}
+
+.billingformleft {
+    width: 50%;
+    /* background-color: blue; */
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* align-items: center; */
+
+}
+
+
+
+.inputfield1st {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+.labelnamestyle {
+    color: #333;
+    line-height: 2;
+    font-size: 15px;
+}
+
+.inputstyle {
+    /* height: 40px; */
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #e1e1e1;
+    height: 30px;
+    outline: none;
+    width: 100%;
+}
+
+
+.inputfield2nd {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 4%;
+}
+
+
+.billingformright {
+
+    width: 45%;
+    /* background-color: black; */
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    margin-right: 5%;
+    /* padding-left: 5%; */
+    justify-content: space-between;
+    /* align-items: center; */
+
+}
+.innertopright {
+    width: 100%;
+}
+
+
+.linestyle {
+    height: 0.5px;
+     width: 85%;
+     /* background-color: black; */
+     display: flex;
+     flex-direction: row;
+     background-color: grey;
+     /* border: 1px solid grey; */
+    margin-top: 1rem ;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.productndtotalparent {
+    display: flex;
+    flex-direction: row;
+    padding-left: 12%;
+    padding-right: 12%;
+    justify-content: space-between;
+}
+.cartitemsstylecheckout {
+    /* height: 100; */
+    width: 78%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 12%;
+    /* padding-right: 25%; */
+    padding-top: 5%;
+    /* padding-bottom: 1%; */
+    /* background-color: black; */
+}
+
+.grandtotalshow {
+    display: flex;
+    /* height: 25px; */
+    width: 100%;
+    /* padding-left: 10%; */
+    /* margin-left: 10%; */
+    /* padding-right: 5%; */
+    padding-bottom: 5%;
+    padding-top: 5%;
+    /* background-color: black; */
+    flex-direction: column;
+    
+    /* align-items: center; */
+    /* align-self: flex-end; */
+    /* align-content: flex-start; */
+    /* margin-top: 100%; */
+}
+
+.cartsubtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2%;
+    margin-left: 13%;
+}
+
+
+.cartsubtotaltext {
+    font-weight: bold;
+    font-size: 13px;
+    /* margin-left: 10px; */
+    /* padding-left: 10%; */
+}
+
+.grandtotal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 13%;
+    /* padding-top: 1rem; */
+    /* padding-bottom: 1rem; */
+    /* margin: 1rem ; */
+}
+.orderconfirmparent {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.OrderConfirmBtn {
+    margin-top: 10%;
+    color: grey;
+    background-color: white;
+    border: 1px solid #e1e1e1;
+    padding: 13px;
+    outline: none;
+    /* margin: 0 auto; */
+}
+
+
+@media only screen and (max-width: 800px) {
+   .billingformparent {
+       flex-direction: column;
+   }
+   .billingformleft {
+       width: 90%;
+   }
+   .billingformright {
+       width: 90%;
+       margin-top: 5%;
+       align-self: center;
+       margin: 10px;
+       /* padding: 10px; */
+   }
+  }

@@ -1,0 +1,255 @@
+
+
+
+
+
+.FooterStart {
+    /* height: 400px; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .FooterCol1 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between; 
+  }
+  
+  .Col1Text1 {
+    padding-top: 40px;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .addressFooter {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .addressicontext {
+    padding-left: 3px;
+    color: white;
+    font-size: 13px;
+  }
+  .addressiconstyle {
+    height: 16px;
+  }
+  .phoneFooter {
+    display: flex;
+    flex-direction: row;
+  }
+  .phoneiconstyle {
+    height: 15px;
+  }
+  .emailFooter {
+    display: flex;
+    flex-direction: row;
+  }
+  .joinustext {
+   /* padding-bottom: 20px; */
+    font-size: 13px;
+    color: white;
+  }
+  
+  .rowIconFooter {
+    /* padding-bottom: 20px; */
+  }
+  .rightReservedText {
+    padding-bottom: 20px;
+    font-size: 12px;
+    color: #808080;
+  }
+  .FooterCol2 {
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 20%;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  .FooterCol3 {
+  
+  
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 20%;
+    align-items: center;
+    /* justify-content: space-between; */
+  
+  }
+  .Col2TopText {
+    padding-top: 50px;
+    font-size: 13px;
+    color: white;
+  }
+  .CommonCol2text {
+    padding-top: 10px;
+    color: #808088;
+    font-size: 12px;
+  }
+  
+  .lastCol {
+  
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    width: 30%;
+    margin-left: 25px;
+    /* align-items: center; */
+  }
+  
+  .lastColText {
+    padding-top: 50px;
+    font-size: 13px;
+    color: white;
+  }
+  .subscribeEmailInput {
+    color: white;
+    border: 1px solid grey;
+    margin-top: 20px;
+    padding: 5px;
+    height: 50%;
+    width: 100%;
+    background-color: black;
+  }
+  .subscribeEmailInput::-webkit-input-placeholder {
+   
+    font-size: 12px;
+  }
+  .inputFieldIcon {
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+  }
+  
+  
+  .SendIcon {
+    margin-top: 20px;
+    height: 75%;
+    width: 10%;
+    background-color: green;
+  }
+  .sendImage {
+    padding-top: 10px;
+    padding-left: 2px;
+    
+    /* align-self: center; */
+    height: 16px;
+    width: 80%;
+  }
+  
+  .WeAcceptClass {
+    margin-top: 60px;
+    color: white;
+    font-size: 13px;
+  }
+  .WeAcceptRow {
+  
+    display: flex;
+    flex-direction: row;
+  }
+  .visicon {
+    margin-top: 40px;
+    height: 40px;
+    width: 40px;
+  }
+  .paypalicon {
+    margin-top: 46px;
+    padding-left: 10px;
+    height: 28px;
+    width: 40px;
+  
+  }
+  
+  @media screen and (max-width: 768px) 
+  {
+    .FooterCol1 {
+      width: 60%;
+    }
+    .FooterCol2 {
+      
+      width: 40%;
+      align-items: flex-start;
+    }
+    .FooterCol3 {
+      width: 35%;
+      /* margin-left: 10px; */
+      /* padding-left: 2%; */
+      align-items: flex-end;
+      /* padding-left: 50px; */
+      /* margin-left: 5%; */
+    }
+  
+    .lastCol {
+      width: 45%;
+      padding-left: 15%;
+      /* justify-content: center; */
+      /* align-items: center; */
+  
+    }
+    .inputFieldIcon {
+      display: flex;
+      margin-left: 0px;
+      width: 80%;
+      justify-content: center;
+    }
+    .WeAcceptRow {
+      display: flex;
+      justify-content: flex-start;
+      /* align-items: center; */
+    }
+    .CommonCol2text {
+      align-items: flex-start;
+      text-align: left;
+    }
+  
+  }
+  
+  
+  @media screen and (max-width: 500px) 
+  {
+    .FooterCol1 {
+      width: 100%;
+    }
+    .FooterCol2 {
+      height: auto;
+      width: 100%;
+      align-items: center;
+    }
+    .FooterCol3 {
+      height: auto;
+      width: 100%;
+      align-items: center;
+    }
+  
+    .lastCol {
+      width: 100%;
+      margin-left: 10%;
+      /* justify-content: center; */
+      /* align-items: center; */
+  
+    }
+    .inputFieldIcon {
+      display: flex;
+      margin-left: 0px;
+      width: 80%;
+      justify-content: center;
+    }
+    .WeAcceptRow {
+      display: flex;
+      justify-content: flex-start;
+      /* align-items: center; */
+    }
+  
+  }
+  
+  
+  

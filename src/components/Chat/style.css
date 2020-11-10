@@ -1,0 +1,98 @@
+
+
+
+.imagestyle5 {
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* align-self: flex-end; */
+    /* margin-left: 95%; */
+    /* margin-top: 40%; */
+}
+
+
+.chatmodaldesign {
+
+    height: 80%;
+    width: 400px;
+    background-color: rgb(252, 252, 252);
+    position: fixed;
+     z-index: 1;
+     bottom: 2%;
+    right: 2%;
+        box-sizing: border-box;
+    border-radius: 1rem 1rem 0 0 ;
+    box-shadow: 0 0 5px #cdd6d8;
+    display: flex;
+    flex-direction: column;
+    
+}
+.ChatHeader {
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    border-radius: 1rem 1rem 0 0 ;
+    height: 16%;
+    width: 400px;
+    background-color: white;
+    justify-content: space-between;
+
+}
+
+.crossstyle {
+    display: flex;
+    align-self: flex-start;
+    padding-top: 2px;
+
+}
+
+.chatuserimage {
+    height: 50px;
+    width: 50px;
+    margin-left: 8px;
+    /* margin: auto; */
+    /* top: auto; */
+    /* bottom: auto; */
+    /* align-self: center; */
+}
+
+.messagesInChatBox {
+    height: 70%;
+    background-color: rgb(247, 247, 247);
+}
+
+.inputcontainer {
+    height: 14%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputparentchat {
+    height: 70%;
+    width: 80%;
+    border-radius: 28px;
+    border: 1px solid rgb(212, 195, 195);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.chatinputstyle {
+    /* height: 90%; */
+    width: 100%;
+    border: none;
+    outline: none;
+}
+.sendimagestyle {
+    height: 40px;
+    width: 37px;
+
+}

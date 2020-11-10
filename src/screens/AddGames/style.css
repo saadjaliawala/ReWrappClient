@@ -1,0 +1,105 @@
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: yellow; opacity:1;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    color: yellow; opacity:1;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    color: yellow; opacity:1;
+}
+
+.maindiv1 {
+    /* height: 100vh; */
+    width: 100%;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inputparent {
+    margin-top: 50px;
+display: flex;
+height: 32px;
+width: 40%;
+border: 1px solid yellow;
+flex-direction: row;
+
+}
+
+.TextInput {
+    background-color: black;
+    border: none;
+    width: 100%;
+    color: yellow;
+    outline: none;
+    /* height: 25px; */
+    /* width: 100px; */
+    /* border: 1px solid yellow; */
+}
+.GamePackage {
+    height: 32px;
+    width: 40%;
+    border: 1px solid yellow;
+    display: flex;
+    /* padding-left: 20px; */
+    margin-top: 35px;
+    background-color: black;
+    color: yellow;
+    outline: none;
+
+}
+.submitstyle {
+    margin-top: 35px;
+    /* margin-bottom: 35px; */
+    height: 32px;
+    width: 40%;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    outline: none;
+}
+
+.imagefilestyle {
+    margin-top: 35px;
+    height: 32px;
+    width: 40%;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    outline: none;
+
+}
+.draginput {
+    margin-top: 35px;
+    height: 50px;
+    width: 40%;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    outline: none;
+
+
+}
+.inputfile{
+    margin-top: 35px;
+    height: 35px;
+    width: 40%;
+    border: 1px solid yellow;
+    background-color: black;
+    color: yellow;
+    outline: none;
+}
+.inputparentaddgames{
+    margin-top: 30px;
+    padding-left: 5px;
+display: flex;
+height: 32px;
+width: 40%;
+border: 1px solid yellow;
+flex-direction: row;
+
+}

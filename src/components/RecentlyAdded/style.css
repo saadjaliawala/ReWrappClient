@@ -1,0 +1,99 @@
+
+
+.RecentTextParent {
+    /* height: 80px; */
+    width: 100%;
+    padding-top: 40px;
+    /* padding-left: 60px; */
+    padding-bottom: 66px;
+    /* background-color: black; */
+  }
+  
+  .RecentText {
+    margin-left: 7%;
+    font-size: 25px;
+    
+  }
+  
+  
+  
+  
+  
+  .RecentlyAddedGamesParent {
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    /* background-color: black; */
+  }
+  
+  .Inner {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 25%;
+    /* padding: 3%; */
+    /* padding-top: 3%; */
+    /* padding-bottom: 3%; */
+    padding-left: 3%;
+    padding-right: 3%;
+  
+  }
+  
+  .RecentlyAddedGamesImage {
+    height: 80%;
+    width: 100%;
+    
+    /* margin-left: 5px; */
+  }
+  
+  .RecentGamesTextStyle {
+    padding-top: 20px;
+  }
+  
+  
+  
+  @media screen and (max-width: 768px) {
+  
+    .RecentlyAddedGamesParent { 
+  
+      height: 300px;
+  
+    }
+    .RecentlyAddedGamesImage {
+     height: 70%;
+    }
+  
+    
+  }
+  
+  
+  @media screen and (max-width: 500px) {
+  
+    .RecentlyAddedGamesParent { 
+  
+      height: 200px;
+  
+    }
+    .RecentlyAddedGamesImage {
+      height: 60%;
+     }
+   
+  
+    
+  }
+  
+  @media screen and (max-width: 400px) {
+  
+    .RecentlyAddedGamesParent { 
+  
+      height: 220px;
+  
+    }
+    .RecentlyAddedGamesImage {
+      height: 48%;
+     }
+  
+    
+  }

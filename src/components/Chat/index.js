@@ -101,7 +101,7 @@ const Chat = () => {
                 <div className="messagesInChatBox" >
                     { chattingarray?.map((v, i ) => {
                         return(
-                            <div>
+                            <div style={{ margin: '8px'    }}  >
                                 <p>{v.name} : {v.message} </p>
                             </div>
                         );

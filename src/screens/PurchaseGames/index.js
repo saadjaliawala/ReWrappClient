@@ -84,7 +84,7 @@ const PurchaseScreen = () => {
 
 
   const NextClick = () => {
-    startIndex = startIndex+2;
+    startIndex = startIndex+20;
     setStartIndex(startIndex);
   }
 
@@ -124,7 +124,7 @@ const PurchaseScreen = () => {
         {/* <p>PurchaseScreen </p> */}
         {availablegames?.map((data, i) => {
           // let startIndex = 0;
-          if (i >= startIndex && i < startIndex+2) {
+          if (i >= startIndex && i < startIndex+20) {
             return (
               <div className="CartDiv">
                 <img src={data.imageurl} className="imagestyle" />
@@ -148,8 +148,8 @@ const PurchaseScreen = () => {
         })}
       </div>
 
-      <div>
-          <button onClick={() => NextClick() } >Next</button>
+      <div style={{  display: 'flex' , flexDirection: 'row' , justifyContent: 'flex-end'  }}  >
+          <button onClick={() => NextClick() }  className="NextClickStyle"  >Next</button>
         </div>
 
       <Footer />

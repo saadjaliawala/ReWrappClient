@@ -1,6 +1,7 @@
 import React , {useEffect, useState} from 'react';
 import './style.css';
 import firebase from '../../Config/firebase';
+import SidebarComponent from '../../components/Sidebar';
 
 import {
   BrowserRouter as Router,
@@ -53,7 +54,8 @@ const  RentalDeliveriesScreeen  = () =>  {
 
   return (
     <div >
-        <h1> Rental  Deliveries Screeen </h1>
+      <SidebarComponent />
+        {/* <h1> Rental  Deliveries Screeen </h1> */}
         {deliveries?.map((data , index ) => {
           console.log(data , "deded");
           return(

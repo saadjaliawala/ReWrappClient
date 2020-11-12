@@ -10,7 +10,7 @@ const Messages = (text , client  ) => {
  let array = store.getState().ChatMessages.messages;
 
  array.push({
-    name: 'user',
+    name: 'USER',
     message: text
 })
 
@@ -18,7 +18,7 @@ const Messages = (text , client  ) => {
 console.log(result,'check');
 const mesg = result.result.fulfillment.speech;
 //   console.log(result.result.fulfillment.speech);
-array.push({name: 'bot' , message: mesg });
+array.push({name: 'BOT' , message: mesg });
 console.log("checking await")
  // let array = store.getState().CartItems.cartItem;
 

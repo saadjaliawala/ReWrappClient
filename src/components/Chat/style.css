@@ -62,6 +62,7 @@
 
 .messagesInChatBox {
     height: 70%;
+    /* margin: 12px; */
     background-color: rgb(247, 247, 247);
 }
 

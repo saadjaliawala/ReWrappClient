@@ -106,3 +106,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     margin-left: 10px;
     align-self: center;
 }
+
+.NextClickStyle {
+    border: none;
+    background-color: white;
+    color: blue;
+    text-decoration: underline  blue;
+    outline: none;
+    margin-top: 1%;
+    margin-bottom: 1%;
+    margin-right: 8%;
+}

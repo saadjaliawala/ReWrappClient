@@ -1,6 +1,7 @@
 import React , {useEffect , useState , useCallback } from 'react';
 import './style.css';
 import firebase from '../../Config/firebase';
+import SidebarComponent from '../../components/Sidebar';
 
 import {useDropzone} from 'react-dropzone';
 
@@ -110,6 +111,10 @@ const  AddGamesScreeen  = () =>  {
 
   return (
     <div className="maindiv1" >
+
+      <SidebarComponent />
+      
+
         <h1 style={{ color: "yellow" }} >ADD GAMES SCREEEN </h1>
         <div className="inputparent" >
         <input type="text" className="TextInput" placeholder="add games" value={addgamestext} onChange={(e) => AddGamesText(e)   } />
@@ -150,6 +155,9 @@ const  AddGamesScreeen  = () =>  {
     {/* <input type="text" className="TextInput" placeholder="add games" value={addgamestext} onChange={(e) => AddGamesText(e)   } /> */}
        
         <button className="submitstyle" onClick={() => SubmitGame() } >Add games</button>
+
+        {/* <button className="submitstyle" onClick={() => SubmitGame() } >Add games</button> */}
+
         {/* <div></div> */}
     </div>
   );

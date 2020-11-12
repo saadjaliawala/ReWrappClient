@@ -41,7 +41,7 @@ flex-direction: row;
     /* border: 1px solid yellow; */
 }
 .GamePackage {
-    height: 32px;
+    height: 42px;
     width: 40%;
     border: 1px solid yellow;
     display: flex;
@@ -53,9 +53,9 @@ flex-direction: row;
 
 }
 .submitstyle {
-    margin-top: 35px;
-    /* margin-bottom: 35px; */
-    height: 32px;
+    margin-top: 45px;
+    margin-bottom: 35px;
+    height: 42px;
     width: 40%;
     border: 1px solid yellow;
     background-color: black;
@@ -74,7 +74,7 @@ flex-direction: row;
 
 }
 .draginput {
-    margin-top: 35px;
+    margin-top: 42px;
     height: 50px;
     width: 40%;
     border: 1px solid yellow;
@@ -85,8 +85,8 @@ flex-direction: row;
 
 }
 .inputfile{
-    margin-top: 35px;
-    height: 35px;
+    margin-top: 42px;
+    height: 45px;
     width: 40%;
     border: 1px solid yellow;
     background-color: black;
@@ -95,6 +95,8 @@ flex-direction: row;
 }
 .inputparentaddgames{
     margin-top: 30px;
+    /* padding-bottom: 20px; */
+    /* margin-bottom: 30px;; */
     padding-left: 5px;
 display: flex;
 height: 32px;

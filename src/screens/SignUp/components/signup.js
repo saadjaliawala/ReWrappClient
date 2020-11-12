@@ -96,7 +96,7 @@ const  SignUp  = () =>  {
 
   const SubmitSignUp = () => {
     // alert("submit");
-    if(email != null && password != null && game1 != null && address != null && number != null )
+    if(email != null && password != null && address != null && number != null )
     {
       // alert("if");
       let games = [];
@@ -125,7 +125,7 @@ const  SignUp  = () =>  {
           password: password ,
           number: number,
           address: address,
-          games: games ,
+          // games: games ,
           city: cityname,
           packagename: packagename, 
           startingdate: selectedDate,
@@ -152,7 +152,7 @@ const  SignUp  = () =>  {
           setemail('');
           setpassword('');
           setpackagename('');
-          history.push("/User");
+          history.push("/startmembership");
         })
         .catch(error => {
           console.log(error);
@@ -215,15 +215,15 @@ const  SignUp  = () =>  {
     <option value="Reapers">Reapers</option>
     <option value="UltimatePro">UltimatePro   </option>
      </select>
-     <div className="InputStyle" style={{ marginTop: '25px' }}  >
+     {/* <div className="InputStyle" style={{ marginTop: '25px' }}  >
     <FontAwesomeIcon icon={faGamepad} size="xs" style={{ color: "white" , paddingLeft: '2px'}} />
     <input value={game1} placeholder="Current Game" style={{ color: 'yellow' , backgroundColor: 'black' , borderStyle: 'none'
     , paddingLeft: '5px' , outline: 'none' }}
     onChange={(e) => Game1Changed(e) }
     className= "inputfield"
     />
-    </div>
-    { gamecount == 2 && 
+    </div> */}
+    {/* { gamecount == 2 && 
 
 <div className="InputStyle" style={{ marginTop: '25px' }}  >
 <FontAwesomeIcon icon={faGamepad} size="xs" style={{ color: "white" , paddingLeft: '2px'}} />
@@ -234,7 +234,7 @@ className= "inputfield"
   />
       </div>
     
-    }
+    } */}
      <DatePicker
       onChange={(date) => DateChange(date)}
       value={selectedDate}

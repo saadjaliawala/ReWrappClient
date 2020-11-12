@@ -4,6 +4,7 @@ import firebase from '../../Config/firebase';
 import store from '../../redux/store';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import {faSearch} from  '@fortawesome/free-solid-svg-icons';
+import { useHistory } from "react-router-dom";
 
 import {
   BrowserRouter as Router,
@@ -13,6 +14,8 @@ import {
 } from "react-router-dom";
 
 const  StartMembershipScreeen  = () =>  {
+
+  let history = useHistory();
 
  
 
@@ -109,6 +112,9 @@ const  StartMembershipScreeen  = () =>  {
                
                firebase.firestore().collection('availablegames').doc(datas.id)
                .update(gamedata)
+               .then((res ) => {
+                 history.push('./user');
+               } )
             
            })
         
@@ -133,11 +139,11 @@ const  StartMembershipScreeen  = () =>  {
        
             if(e.target.checked == true)
             {
-                counter++;
+                ++counter;
                 setcounter(counter);
             }
             else {
-                counter--;
+                --counter;
                 setcounter(counter);
             }
          

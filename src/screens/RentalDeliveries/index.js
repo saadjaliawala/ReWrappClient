@@ -2,6 +2,7 @@ import React , {useEffect, useState} from 'react';
 import './style.css';
 import firebase from '../../Config/firebase';
 import SidebarComponent from '../../components/Sidebar';
+import ReactExport from "react-export-excel";
 
 import {
   BrowserRouter as Router,
@@ -9,6 +10,11 @@ import {
   Route,
   Link
 } from "react-router-dom";
+
+
+const ExcelFile = ReactExport.ExcelFile;
+const ExcelSheet = ReactExport.ExcelFile.ExcelSheet;
+const ExcelColumn = ReactExport.ExcelFile.ExcelColumn;
 
 const  RentalDeliveriesScreeen  = () =>  {
 
@@ -52,9 +58,34 @@ const  RentalDeliveriesScreeen  = () =>  {
       .catch((err) => console.log(err) );
     }
 
+
+    const _renderExcel = () => {
+      return(
+
+        <ExcelFile element={<button>Download Data</button>}>
+        <ExcelSheet data={deliveries} name="Deliveries">
+            <ExcelColumn label="Name" value="name"/>
+            <ExcelColumn label="Address " value="address"/>
+            <ExcelColumn label="Numbers" value="number"/>
+            <ExcelColumn label="Total Rent" value="rent"/>
+            <ExcelColumn label="Swap Game" value="swapgame"/>
+            <ExcelColumn label="Selected Game" value="dummyselect"/>
+            
+           
+            
+        </ExcelSheet>
+      
+    </ExcelFile>
+
+      );
+    }
+
+
+
   return (
     <div >
       <SidebarComponent />
+        {_renderExcel()}
         {/* <h1> Rental  Deliveries Screeen </h1> */}
         {deliveries?.map((data , index ) => {
           console.log(data , "deded");
